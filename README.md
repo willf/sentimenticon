@@ -9,9 +9,9 @@ Sentiments range from -1.0 to 1.0, where -1.0 is the most unfavorable, and 1.0 i
 In addition, a Sentiment object can be inspected for the original values from the Hedonometrics paper.
 
 Examples::
-       >>> from sentimenicon import sentiment
-       >>> a = sentiment.Analyzer
-       >>> print a.word_sentiment("happy")
-       >>> print a.word_sentiment("terrorist")
-       >>> print a.average_word_sentiment("I love a happy friend".lower().split(" "))
-       >>> s = a.sentiment_object("happy")
+    >>> from sentimenicon import sentiment
+    >>> a = sentiment.Analyzer
+    >>> print a.word_sentiment("happy")
+    >>> print a.word_sentiment("terrorist")
+    >>> print a.average_word_sentiment("I love a happy friend".lower().split(" "))
+    >>> s = a.sentiment_object("happy")
